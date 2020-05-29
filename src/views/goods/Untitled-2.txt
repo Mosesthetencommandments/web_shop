@@ -1,0 +1,1380 @@
+{
+	"knownSymbols": {
+		"img_404": [
+			{
+				"name": "img_404",
+				"module": "@/assets/404_images/404.png",
+				"isDefault": true
+			}
+		],
+		"img_404_cloud": [
+			{
+				"name": "img_404_cloud",
+				"module": "@/assets/404_images/404_cloud.png",
+				"isDefault": true
+			}
+		],
+		"mapGetters": [
+			{
+				"name": "mapGetters",
+				"module": "vuex",
+				"isDefault": false
+			}
+		],
+		"Hamburger": [
+			{
+				"name": "Hamburger",
+				"module": "@/components/Hamburger",
+				"isDefault": true
+			}
+		],
+		"getAfterSaleInfo": [
+			{
+				"name": "getAfterSaleInfo",
+				"module": "@/api/aftersale",
+				"isDefault": false
+			}
+		],
+		"updateAfterSaleOperation": [
+			{
+				"name": "updateAfterSaleOperation",
+				"module": "@/api/aftersale",
+				"isDefault": false
+			}
+		],
+		"getAfterSaleReceiveTypeList": [
+			{
+				"name": "getAfterSaleReceiveTypeList",
+				"module": "@/api/aftersale",
+				"isDefault": false
+			}
+		],
+		"updateAfterSaleRefund": [
+			{
+				"name": "updateAfterSaleRefund",
+				"module": "@/api/aftersale",
+				"isDefault": false
+			}
+		],
+		"waves": [
+			{
+				"name": "waves",
+				"module": "@/directive/waves",
+				"isDefault": true
+			},
+			{
+				"name": "waves",
+				"module": "@/directive/waves-theme",
+				"isDefault": true
+			}
+		],
+		"getAfterSaleList": [
+			{
+				"name": "getAfterSaleList",
+				"module": "@/api/aftersale",
+				"isDefault": false
+			}
+		],
+		"getCustomerShopList": [
+			{
+				"name": "getCustomerShopList",
+				"module": "@/api/customer",
+				"isDefault": false
+			}
+		],
+		"changeCustomerShopStatus": [
+			{
+				"name": "changeCustomerShopStatus",
+				"module": "@/api/customer",
+				"isDefault": false
+			}
+		],
+		"findCustomerShop": [
+			{
+				"name": "findCustomerShop",
+				"module": "@/api/customer",
+				"isDefault": false
+			}
+		],
+		"updateCustomerShop": [
+			{
+				"name": "updateCustomerShop",
+				"module": "@/api/customer",
+				"isDefault": false
+			}
+		],
+		"updateCustomerPid": [
+			{
+				"name": "updateCustomerPid",
+				"module": "@/api/customer",
+				"isDefault": false
+			}
+		],
+		"parseTime": [
+			{
+				"name": "parseTime",
+				"module": "@/utils/index",
+				"isDefault": false
+			}
+		],
+		"getWarehouseStatisticsData": [
+			{
+				"name": "getWarehouseStatisticsData",
+				"module": "@/api/overview",
+				"isDefault": false
+			}
+		],
+		"getWeixinFansRecordData": [
+			{
+				"name": "getWeixinFansRecordData",
+				"module": "@/api/overview",
+				"isDefault": false
+			}
+		],
+		"getWeixinRecordUnfilledList": [
+			{
+				"name": "getWeixinRecordUnfilledList",
+				"module": "@/api/overview",
+				"isDefault": false
+			}
+		],
+		"getDailyLogisticsOrdersCountStatistics": [
+			{
+				"name": "getDailyLogisticsOrdersCountStatistics",
+				"module": "@/api/orders",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsCommonList": [
+			{
+				"name": "getShopGoodsCommonList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopDistributionLevelList": [
+			{
+				"name": "getShopDistributionLevelList",
+				"module": "@/api/customer",
+				"isDefault": false
+			}
+		],
+		"getShopAssembleList": [
+			{
+				"name": "getShopAssembleList",
+				"module": "@/api/activity",
+				"isDefault": false
+			}
+		],
+		"createShopAssemble": [
+			{
+				"name": "createShopAssemble",
+				"module": "@/api/activity",
+				"isDefault": false
+			}
+		],
+		"getShopAssembleProductGoods": [
+			{
+				"name": "getShopAssembleProductGoods",
+				"module": "@/api/activity",
+				"isDefault": false
+			}
+		],
+		"updateShopAssemble": [
+			{
+				"name": "updateShopAssemble",
+				"module": "@/api/activity",
+				"isDefault": false
+			}
+		],
+		"findShopAssemble": [
+			{
+				"name": "findShopAssemble",
+				"module": "@/api/activity",
+				"isDefault": false
+			}
+		],
+		"changeShopAssembleStatus": [
+			{
+				"name": "changeShopAssembleStatus",
+				"module": "@/api/activity",
+				"isDefault": false
+			}
+		],
+		"getdDistributionPosterList": [
+			{
+				"name": "getdDistributionPosterList",
+				"module": "@/api/distribution",
+				"isDefault": false
+			}
+		],
+		"getDistributionPosterInfo": [
+			{
+				"name": "getDistributionPosterInfo",
+				"module": "@/api/distribution",
+				"isDefault": false
+			}
+		],
+		"createDistributionPoster": [
+			{
+				"name": "createDistributionPoster",
+				"module": "@/api/distribution",
+				"isDefault": false
+			}
+		],
+		"updateDistributionPoster": [
+			{
+				"name": "updateDistributionPoster",
+				"module": "@/api/distribution",
+				"isDefault": false
+			}
+		],
+		"deleteDistributionPoster": [
+			{
+				"name": "deleteDistributionPoster",
+				"module": "@/api/distribution",
+				"isDefault": false
+			}
+		],
+		"getShopBalanceWithdrawRecordList": [
+			{
+				"name": "getShopBalanceWithdrawRecordList",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"findShopBalanceWithdrawRecordInfo": [
+			{
+				"name": "findShopBalanceWithdrawRecordInfo",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"noPassShopBalanceWithdrawRecord": [
+			{
+				"name": "noPassShopBalanceWithdrawRecord",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"passShopBalanceWithdrawRecord": [
+			{
+				"name": "passShopBalanceWithdrawRecord",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"getShopBalanceProfitRecordList": [
+			{
+				"name": "getShopBalanceProfitRecordList",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"getShopDistributionProfitWithdrawRecordList": [
+			{
+				"name": "getShopDistributionProfitWithdrawRecordList",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"passShopDistributionProfitWithdrawRecord": [
+			{
+				"name": "passShopDistributionProfitWithdrawRecord",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"noPassShopDistributionProfitWithdrawRecord": [
+			{
+				"name": "noPassShopDistributionProfitWithdrawRecord",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"findShopDistributionProfitWithdrawRecordInfo": [
+			{
+				"name": "findShopDistributionProfitWithdrawRecordInfo",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"getShopDistributionProfitRecordList": [
+			{
+				"name": "getShopDistributionProfitRecordList",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"getCustomerAccountList": [
+			{
+				"name": "getCustomerAccountList",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"updateAfterSaleFinance": [
+			{
+				"name": "updateAfterSaleFinance",
+				"module": "@/api/aftersale",
+				"isDefault": false
+			}
+		],
+		"getShopGoldRecordList": [
+			{
+				"name": "getShopGoldRecordList",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"getShopBalanceRecordList": [
+			{
+				"name": "getShopBalanceRecordList",
+				"module": "@/api/financial",
+				"isDefault": false
+			}
+		],
+		"Navbar": [
+			{
+				"name": "Navbar",
+				"module": "@/views/layout/components",
+				"isDefault": false
+			}
+		],
+		"Sidebar": [
+			{
+				"name": "Sidebar",
+				"module": "@/views/layout/components",
+				"isDefault": false
+			}
+		],
+		"AppMain": [
+			{
+				"name": "AppMain",
+				"module": "@/views/layout/components",
+				"isDefault": false
+			}
+		],
+		"TagsView": [
+			{
+				"name": "TagsView",
+				"module": "@/views/layout/components",
+				"isDefault": false
+			}
+		],
+		"homesidebar": [
+			{
+				"name": "homesidebar",
+				"module": "@/views/layout/components",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsCommonCommentsList": [
+			{
+				"name": "getShopGoodsCommonCommentsList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"changeShopGoodsCommonCommentsStatus": [
+			{
+				"name": "changeShopGoodsCommonCommentsStatus",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"createShopGoodsCommonCommentsReply": [
+			{
+				"name": "createShopGoodsCommonCommentsReply",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"changeShopGoodsCommonCommentReplysStatus": [
+			{
+				"name": "changeShopGoodsCommonCommentReplysStatus",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getOrdersAreaList": [
+			{
+				"name": "getOrdersAreaList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsGroupList": [
+			{
+				"name": "getShopGoodsGroupList",
+				"module": "@/api/goods",
+				"isDefault": false
+			},
+			{
+				"name": "getShopGoodsGroupList",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"updateShopGoodsGroup": [
+			{
+				"name": "updateShopGoodsGroup",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"createShopGoodsGroup": [
+			{
+				"name": "createShopGoodsGroup",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"deleteShopGoodsGroup": [
+			{
+				"name": "deleteShopGoodsGroup",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"createShopSpeciesValue": [
+			{
+				"name": "createShopSpeciesValue",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"updateShopSpeciesValue": [
+			{
+				"name": "updateShopSpeciesValue",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"getShopSpeciesValueList": [
+			{
+				"name": "getShopSpeciesValueList",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"deleteShopSpeciesValue": [
+			{
+				"name": "deleteShopSpeciesValue",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"getGoodsGroupRelationList": [
+			{
+				"name": "getGoodsGroupRelationList",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"deleteGroupGood": [
+			{
+				"name": "deleteGroupGood",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"updateGroupGood": [
+			{
+				"name": "updateGroupGood",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"createGroupGood": [
+			{
+				"name": "createGroupGood",
+				"module": "@/api/group_goods",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsDetailList": [
+			{
+				"name": "getShopGoodsDetailList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"createShopGoodsDetail": [
+			{
+				"name": "createShopGoodsDetail",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"deleteShopGoodsDetail": [
+			{
+				"name": "deleteShopGoodsDetail",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getProductGoodsList": [
+			{
+				"name": "getProductGoodsList",
+				"module": "@/api/product_goods",
+				"isDefault": false
+			},
+			{
+				"name": "getProductGoodsList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsMemberPriceList": [
+			{
+				"name": "getShopGoodsMemberPriceList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"createShopGoodsMemberPrice": [
+			{
+				"name": "createShopGoodsMemberPrice",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"updateShopGoodsMemberPrice": [
+			{
+				"name": "updateShopGoodsMemberPrice",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopDistributionLevelPriceList": [
+			{
+				"name": "getShopDistributionLevelPriceList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"createShopGoodsDistributionPrice": [
+			{
+				"name": "createShopGoodsDistributionPrice",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"updateShopGoodsDistributionPrice": [
+			{
+				"name": "updateShopGoodsDistributionPrice",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"updateShopGoodsIntegralStatus": [
+			{
+				"name": "updateShopGoodsIntegralStatus",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopSpeciesList": [
+			{
+				"name": "getShopSpeciesList",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"getFreightTemplateList": [
+			{
+				"name": "getFreightTemplateList",
+				"module": "@/api/freight",
+				"isDefault": false
+			}
+		],
+		"uploadImage": [
+			{
+				"name": "uploadImage",
+				"module": "@/api/document",
+				"isDefault": false
+			}
+		],
+		"changeShopGoodsStatus": [
+			{
+				"name": "changeShopGoodsStatus",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getBrandList": [
+			{
+				"name": "getBrandList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"createShopGoodsCommon": [
+			{
+				"name": "createShopGoodsCommon",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"updateShopGoodsCommon": [
+			{
+				"name": "updateShopGoodsCommon",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsCommonInfo": [
+			{
+				"name": "getShopGoodsCommonInfo",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsList": [
+			{
+				"name": "getShopGoodsList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"createProductGoods": [
+			{
+				"name": "createProductGoods",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"updateShopGoods": [
+			{
+				"name": "updateShopGoods",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsCategoryTree": [
+			{
+				"name": "getShopGoodsCategoryTree",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"getGoodsDistributionRule": [
+			{
+				"name": "getGoodsDistributionRule",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"updateGoodsDistributionRule": [
+			{
+				"name": "updateGoodsDistributionRule",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"Multiselect": [
+			{
+				"name": "Multiselect",
+				"module": "vue-multiselect",
+				"isDefault": true
+			}
+		],
+		"regionData": [
+			{
+				"name": "regionData",
+				"module": "element-china-area-data",
+				"isDefault": false
+			}
+		],
+		"createShopSpecies": [
+			{
+				"name": "createShopSpecies",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"updateShopSpecies": [
+			{
+				"name": "updateShopSpecies",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"deleteShopSpecies": [
+			{
+				"name": "deleteShopSpecies",
+				"module": "@/api/species",
+				"isDefault": false
+			}
+		],
+		"getShopGoodsIntegralList": [
+			{
+				"name": "getShopGoodsIntegralList",
+				"module": "@/api/goods",
+				"isDefault": false
+			}
+		],
+		"isvalidUsername": [
+			{
+				"name": "isvalidUsername",
+				"module": "@/utils/validate",
+				"isDefault": false
+			}
+		],
+		"getProductList": [
+			{
+				"name": "getProductList",
+				"module": "@/api/product",
+				"isDefault": false
+			}
+		],
+		"getSupportGroupList": [
+			{
+				"name": "getSupportGroupList",
+				"module": "@/api/support_member",
+				"isDefault": false
+			}
+		],
+		"getSupportMemberList": [
+			{
+				"name": "getSupportMemberList",
+				"module": "@/api/support_member",
+				"isDefault": false
+			}
+		],
+		"getSystemGlobalSettingInfo": [
+			{
+				"name": "getSystemGlobalSettingInfo",
+				"module": "@/api/system_global_setting",
+				"isDefault": false
+			}
+		],
+		"getProductWeixinList": [
+			{
+				"name": "getProductWeixinList",
+				"module": "@/api/product_weixin",
+				"isDefault": false
+			}
+		],
+		"getProductWeixinFansList": [
+			{
+				"name": "getProductWeixinFansList",
+				"module": "@/api/product_weixin",
+				"isDefault": false
+			}
+		],
+		"CodeToText": [
+			{
+				"name": "CodeToText",
+				"module": "element-china-area-data",
+				"isDefault": false
+			}
+		],
+		"bus": [
+			{
+				"name": "bus",
+				"module": "@/views/layout/bus",
+				"isDefault": true
+			}
+		],
+		"Sticky": [
+			{
+				"name": "Sticky",
+				"module": "@/components/Sticky",
+				"isDefault": true
+			}
+		],
+		"getListInfo": [
+			{
+				"name": "getListInfo",
+				"module": "@/api/orders",
+				"isDefault": false
+			}
+		],
+		"getShopBannerList": [
+			{
+				"name": "getShopBannerList",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"getShopBannerInfo": [
+			{
+				"name": "getShopBannerInfo",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"updateShopBanner": [
+			{
+				"name": "updateShopBanner",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"createShopBanner": [
+			{
+				"name": "createShopBanner",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"deleteShopBanner": [
+			{
+				"name": "deleteShopBanner",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"getShopSystemConfigList": [
+			{
+				"name": "getShopSystemConfigList",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"updateShopSystemConfig": [
+			{
+				"name": "updateShopSystemConfig",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"getWarehouseList": [
+			{
+				"name": "getWarehouseList",
+				"module": "@/api/product",
+				"isDefault": false
+			},
+			{
+				"name": "getWarehouseList",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"getShopWxMenuList": [
+			{
+				"name": "getShopWxMenuList",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"createShopWxMenu": [
+			{
+				"name": "createShopWxMenu",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"findShopWxMenu": [
+			{
+				"name": "findShopWxMenu",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"updateShopWxMenu": [
+			{
+				"name": "updateShopWxMenu",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"deleteShopWxMenu": [
+			{
+				"name": "deleteShopWxMenu",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"postShopWxMenu": [
+			{
+				"name": "postShopWxMenu",
+				"module": "@/api/setting",
+				"isDefault": false
+			}
+		],
+		"getList": [
+			{
+				"name": "getList",
+				"module": "@/api/table",
+				"isDefault": false
+			}
+		],
+		"loginAccount": [
+			{
+				"name": "loginAccount",
+				"module": "@/api/login",
+				"isDefault": false
+			}
+		],
+		"getUserToken": [
+			{
+				"name": "getUserToken",
+				"module": "@/utils/auth",
+				"isDefault": false
+			}
+		],
+		"getAccountToken": [
+			{
+				"name": "getAccountToken",
+				"module": "@/utils/auth",
+				"isDefault": false
+			}
+		],
+		"setAccountToken": [
+			{
+				"name": "setAccountToken",
+				"module": "@/utils/auth",
+				"isDefault": false
+			}
+		],
+		"removeUserToken": [
+			{
+				"name": "removeUserToken",
+				"module": "@/utils/auth",
+				"isDefault": false
+			}
+		],
+		"removeAccountToken": [
+			{
+				"name": "removeAccountToken",
+				"module": "@/utils/auth",
+				"isDefault": false
+			}
+		],
+		"getUserList": [
+			{
+				"name": "getUserList",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"createUserAccount": [
+			{
+				"name": "createUserAccount",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"updateUserAccount": [
+			{
+				"name": "updateUserAccount",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"updateUserPassword": [
+			{
+				"name": "updateUserPassword",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"getUserAccountRoleList": [
+			{
+				"name": "getUserAccountRoleList",
+				"module": "@/api/user_role",
+				"isDefault": false
+			}
+		],
+		"getUserAccountGroupTree": [
+			{
+				"name": "getUserAccountGroupTree",
+				"module": "@/api/user_group",
+				"isDefault": false
+			}
+		],
+		"getUserAccountDepartmentList": [
+			{
+				"name": "getUserAccountDepartmentList",
+				"module": "@/api/user_department",
+				"isDefault": false
+			}
+		],
+		"getUserAccountTypeList": [
+			{
+				"name": "getUserAccountTypeList",
+				"module": "@/api/user_role",
+				"isDefault": false
+			},
+			{
+				"name": "getUserAccountTypeList",
+				"module": "@/api/user_group",
+				"isDefault": false
+			}
+		],
+		"getUserAccountGroupList": [
+			{
+				"name": "getUserAccountGroupList",
+				"module": "@/api/user_group",
+				"isDefault": false
+			}
+		],
+		"ElFormItem": [
+			{
+				"name": "ElFormItem",
+				"module": "element-ui/packages/form/src/form-item",
+				"isDefault": true
+			}
+		],
+		"getAccountRolePermission": [
+			{
+				"name": "getAccountRolePermission",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"getPermissionByMenu": [
+			{
+				"name": "getPermissionByMenu",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"getAccountPermission": [
+			{
+				"name": "getAccountPermission",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"editUserAccountPermission": [
+			{
+				"name": "editUserAccountPermission",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"createUserAccountGroup": [
+			{
+				"name": "createUserAccountGroup",
+				"module": "@/api/user_group",
+				"isDefault": false
+			}
+		],
+		"updateUserAccountGroup": [
+			{
+				"name": "updateUserAccountGroup",
+				"module": "@/api/user_group",
+				"isDefault": false
+			}
+		],
+		"deleteUserAccountGroup": [
+			{
+				"name": "deleteUserAccountGroup",
+				"module": "@/api/user_group",
+				"isDefault": false
+			}
+		],
+		"createUserAccountRole": [
+			{
+				"name": "createUserAccountRole",
+				"module": "@/api/user_role",
+				"isDefault": false
+			}
+		],
+		"updateUserAccountRole": [
+			{
+				"name": "updateUserAccountRole",
+				"module": "@/api/user_role",
+				"isDefault": false
+			}
+		],
+		"deleteUserAccountRole": [
+			{
+				"name": "deleteUserAccountRole",
+				"module": "@/api/user_role",
+				"isDefault": false
+			}
+		],
+		"editUserAccountRolePermission": [
+			{
+				"name": "editUserAccountRolePermission",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"countUnreadNotice": [
+			{
+				"name": "countUnreadNotice",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"getNoticeList": [
+			{
+				"name": "getNoticeList",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"setTheme": [
+			{
+				"name": "setTheme",
+				"module": "@/utils/auth",
+				"isDefault": false
+			}
+		],
+		"Breadcrumb": [
+			{
+				"name": "Breadcrumb",
+				"module": "@/components/Breadcrumb",
+				"isDefault": true
+			}
+		],
+		"themePicker": [
+			{
+				"name": "themePicker",
+				"module": "@/components/themePicker",
+				"isDefault": true
+			}
+		],
+		"CountUp": [
+			{
+				"name": "CountUp",
+				"module": "countup.js",
+				"isDefault": true
+			}
+		],
+		"ScrollPane": [
+			{
+				"name": "ScrollPane",
+				"module": "@/components/ScrollPane",
+				"isDefault": true
+			}
+		],
+		"generateTitle": [
+			{
+				"name": "generateTitle",
+				"module": "@/utils/i18n",
+				"isDefault": false
+			}
+		],
+		"getOrdersSensitiveList": [
+			{
+				"name": "getOrdersSensitiveList",
+				"module": "@/api/orders",
+				"isDefault": false
+			}
+		],
+		"createOrdersSensitive": [
+			{
+				"name": "createOrdersSensitive",
+				"module": "@/api/orders",
+				"isDefault": false
+			}
+		],
+		"updateOrdersSensitive": [
+			{
+				"name": "updateOrdersSensitive",
+				"module": "@/api/orders",
+				"isDefault": false
+			}
+		],
+		"deleteOrdersSensitive": [
+			{
+				"name": "deleteOrdersSensitive",
+				"module": "@/api/orders",
+				"isDefault": false
+			}
+		],
+		"createProduct": [
+			{
+				"name": "createProduct",
+				"module": "@/api/product",
+				"isDefault": false
+			}
+		],
+		"updateProduct": [
+			{
+				"name": "updateProduct",
+				"module": "@/api/product",
+				"isDefault": false
+			}
+		],
+		"getLogsList": [
+			{
+				"name": "getLogsList",
+				"module": "@/api/system",
+				"isDefault": false
+			}
+		],
+		"getUserAccountList": [
+			{
+				"name": "getUserAccountList",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"readNotice": [
+			{
+				"name": "readNotice",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"getInfo": [
+			{
+				"name": "getInfo",
+				"module": "@/api/login",
+				"isDefault": false
+			}
+		],
+		"updateOwnUserPassword": [
+			{
+				"name": "updateOwnUserPassword",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"updateOwnUserAccount": [
+			{
+				"name": "updateOwnUserAccount",
+				"module": "@/api/user",
+				"isDefault": false
+			}
+		],
+		"myUpload": [
+			{
+				"name": "myUpload",
+				"module": "vue-image-crop-upload",
+				"isDefault": true
+			}
+		],
+		"PanThumb": [
+			{
+				"name": "PanThumb",
+				"module": "@/components/PanThumb",
+				"isDefault": true
+			}
+		],
+		"getUserMenu": [
+			{
+				"name": "getUserMenu",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"createUserMenu": [
+			{
+				"name": "createUserMenu",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"updateUserMenu": [
+			{
+				"name": "updateUserMenu",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"deleteUserMenu": [
+			{
+				"name": "deleteUserMenu",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"editUserPermissionAuth": [
+			{
+				"name": "editUserPermissionAuth",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"deleteUserPermission": [
+			{
+				"name": "deleteUserPermission",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"getPermissionList": [
+			{
+				"name": "getPermissionList",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"getAllAuthList": [
+			{
+				"name": "getAllAuthList",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"createUserPermission": [
+			{
+				"name": "createUserPermission",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"updateUserPermission": [
+			{
+				"name": "updateUserPermission",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"updateWarehouseLogisticsExtra": [
+			{
+				"name": "updateWarehouseLogisticsExtra",
+				"module": "@/api/product",
+				"isDefault": false
+			}
+		],
+		"getWarehouseLogisticsExtraList": [
+			{
+				"name": "getWarehouseLogisticsExtraList",
+				"module": "@/api/product",
+				"isDefault": false
+			}
+		],
+		"createProductDeliverExtra": [
+			{
+				"name": "createProductDeliverExtra",
+				"module": "@/api/product",
+				"isDefault": false
+			}
+		],
+		"getOrdersLogisticsTypeList": [
+			{
+				"name": "getOrdersLogisticsTypeList",
+				"module": "@/api/orders",
+				"isDefault": false
+			}
+		],
+		"createAuth": [
+			{
+				"name": "createAuth",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"deleteAuth": [
+			{
+				"name": "deleteAuth",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"updateAuth": [
+			{
+				"name": "updateAuth",
+				"module": "@/api/auth",
+				"isDefault": false
+			}
+		],
+		"default": [
+			{
+				"name": "default",
+				"path": "c:\\Users\\DELL\\Desktop\\shop\\web_shop\\src\\views\\goods\\freightTemplate.vue",
+				"isDefault": false
+			}
+		]
+	}
+}
