@@ -32,10 +32,6 @@ export function removeAccountToken() {
   return Cookies.remove(accountTokenKey)
 }
 
-
-
-
-
 export function getTheme() {
   return Cookies.get(theme)
 }
